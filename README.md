@@ -22,5 +22,13 @@ Copy it to the clipboard:
 ~~~
 pbcopy < ~/.ssh/id_rsa.pub
 ~~~
-
-
+Now log in to your HPC account. Before appending your public SSH key to the ~/.ssh/authorized_keys file, ensure that the .ssh directory exists and has the correct permissions:
+~~~
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+~~~
+Open the authorized_keys file with a text editor available on the HPC system, such as 'nano' or 'vi':
+~~~
+vi ~/.ssh/authorized_keys
+~~~
+Go to the end of the line press i then Enter and paste the public SSH key there and go back by typing :wq
