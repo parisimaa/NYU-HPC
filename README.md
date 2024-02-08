@@ -58,6 +58,7 @@ Host nyu-langone-hpc (Optional name)
 Press "fn + F1" and look for "Remote-SSH: Connect to host..." and choose the config you created earlier. \
 In the new window which is connected to the HPC you should be able to access your folders through search bar. 
 
-
+## Contact:
+Parisima Abdali: Pa2297@nyu.edu
 
 
