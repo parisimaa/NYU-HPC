@@ -41,3 +41,5 @@ cat ~/.ssh/id_rsa.pub
 ~~~
 Check if you can login without password. 
 
+3) Remote access to HPC using Visual Studio: 
+
