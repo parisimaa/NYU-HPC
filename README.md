@@ -46,7 +46,7 @@ Search for "Remote - SSH" and install the extension. \
 Create a "New remote".\
 Enter SSH UserName@bigpurple.nyumc.org in the search bar. \
 Select directory /.ssh/config \
-Add the following information in the new window and save it\
+Add the following information in the new window and save it \
 ~~~
 Host nyu-langone-hpc (Optional name)
   HostName bigpurple.nyumc.org
