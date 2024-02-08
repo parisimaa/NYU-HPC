@@ -1,6 +1,6 @@
 # NYU-HPC
 
-1) Login HPC account:\
+## Login HPC account:\
 Accessing your account using Mac terminal:
 ~~~
 ssh YourNYUNetID@bigpurple.nyumc.org (NYU Langone HPC)
@@ -11,7 +11,7 @@ ssh YourNYUNetID@greene.hpc.nyu.edu (NYU Tandon HPC)
 Then enter your password. \
 (The setting up process for both HPCs are the same)
 
-2) Use SSH Keys for Authentication:\
+## Use SSH Keys for Authentication:\
 To avoid entering password each time you want to use your HPC account, generate a SSH key:
 ~~~
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -43,7 +43,7 @@ cat ~/.ssh/id_rsa.pub
 ~~~
 Check if you can login without password. 
 
-3) Remote access to HPC using Visual Studio:\
+## Remote access to HPC using Visual Studio:\
 Search for "Remote - SSH" and install the extension. \
 Create a "New remote".\
 Enter SSH UserName@bigpurple.nyumc.org in the search bar. \
