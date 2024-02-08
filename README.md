@@ -31,4 +31,10 @@ Open the authorized_keys file with a text editor available on the HPC system, su
 ~~~
 vi ~/.ssh/authorized_keys
 ~~~
-Go to the end of the line press i then Enter and paste the public SSH key there and go back by typing :wq
+Go to the end of the line press i then Enter and paste the public SSH key there and go back by typing :wq \
+type the following to check if the key is there:
+~~~
+cat ~/.ssh/id_rsa.pub
+~~~
+Check if you can login without password. 
+
