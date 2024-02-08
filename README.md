@@ -4,6 +4,8 @@
 Accessing your account using Mac terminal:
 ~~~
 ssh YourNYUNetID@bigpurple.nyumc.org (NYU Langone HPC)
+~~~
+~~~
 ssh YourNYUNetID@greene.hpc.nyu.edu (NYU Tandon HPC)
 ~~~
 Then enter your password. \
