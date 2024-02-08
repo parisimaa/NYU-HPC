@@ -2,14 +2,14 @@
 
 ## NYU langone - Bigpurple
 
-1) Login HPC account:
+1) Login HPC account: \
   Accessing your account using Mac terminal:
   ~~~
   ssh UserName@bigpurple.nyumc.org
   ~~~
   Then enter your password. \
 
-2) Use SSH Keys for Authentication:
+2) Use SSH Keys for Authentication: \
   To avoid entering password each time you want to use your HPC account, generate a SSH key:
   ~~~
   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -41,6 +41,6 @@
   ~~~
   Check if you can login without password. 
 
-3) Remote access to HPC using Visual Studio:
+3) Remote access to HPC using Visual Studio: \
   Search for "Remote - SSH" and install the extension
 
