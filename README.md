@@ -1,13 +1,13 @@
 # NYU-HPC
 
-## NYU langone - Bigpurple
-
 1) Login HPC account:\
 Accessing your account using Mac terminal:
 ~~~
-ssh UserName@bigpurple.nyumc.org
+ssh YourNYUNetID@bigpurple.nyumc.org (NYU Langone HPC)
+ssh YourNYUNetID@greene.hpc.nyu.edu (NYU Tandon HPC)
 ~~~
-Then enter your password.
+Then enter your password. \
+(The setting up process for both HPCs are the same)
 
 2) Use SSH Keys for Authentication:\
 To avoid entering password each time you want to use your HPC account, generate a SSH key:
