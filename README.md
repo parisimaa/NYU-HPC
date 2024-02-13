@@ -63,11 +63,14 @@ Press "fn + F1" and look for "Remote-SSH: Connect to host..." and choose the con
 In the new window which is connected to the HPC you should be able to access your folders through search bar. 
 
 ## Writing and submitting a job:
-You submit the job with sbatch
+You submit the job with sbatch:
 ~~~
 $ sbatch myscript.s or myscript.sh
 ~~~
-
+And monitor its progress with:
+~~~
+$ squeue -u UserName
+~~~
 
 ## Contact:
 Parisima Abdali: Pa2297@nyu.edu
