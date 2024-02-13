@@ -44,6 +44,8 @@ cat ~/.ssh/id_rsa.pub
 Check if you can login without password. 
 
 ## Remote access to HPC using Visual Studio:
+First make sure your VPN is connected to the NYU. \
+For Greene you need Cisco Any Connect and for Bigpurple you need BIG-IP Edge. \
 Search for "Remote - SSH" and install the extension. \
 Create a "New remote".\
 Enter SSH UserName@bigpurple.nyumc.org in the search bar. \
@@ -59,6 +61,13 @@ Host nyu-langone-hpc (Optional name)
 
 Press "fn + F1" and look for "Remote-SSH: Connect to host..." and choose the config you created earlier. \
 In the new window which is connected to the HPC you should be able to access your folders through search bar. 
+
+## Writing and submitting a job:
+You submit the job with sbatch
+~~~
+$ sbatch myscript.s or myscript.sh
+~~~
+
 
 ## Contact:
 Parisima Abdali: Pa2297@nyu.edu
