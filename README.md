@@ -71,6 +71,10 @@ And monitor its progress with:
 ~~~
 $ squeue -u UserName
 ~~~
+## Resources:
+[NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
+[Singularity Tutorial][https://singularity-tutorial.github.io/02-basic-usage/]
+
 
 ## Contact:
 Parisima Abdali: Pa2297@nyu.edu
