@@ -71,6 +71,11 @@ And monitor its progress with:
 ~~~
 $ squeue -u UserName
 ~~~
+Cancel a specific job if you know the ID:
+~~~
+scancel JOB_ID
+~~~
+
 ## Resources:
 1. [NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
 2. [Singularity Tutorial](https://singularity-tutorial.github.io/02-basic-usage/)
