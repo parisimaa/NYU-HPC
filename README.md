@@ -75,6 +75,10 @@ Cancel a specific job if you know the ID:
 ~~~
 scancel JOB_ID
 ~~~
+Cancel all your jobs that you have submitted:
+~~~
+scancel -u YOUR_USERNAME
+~~~
 
 ## Resources:
 1. [NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
