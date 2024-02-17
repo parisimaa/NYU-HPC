@@ -95,7 +95,7 @@ If the environmnet you are looking to use is not in the list of search bar follo
 ## Resources:
 1. [NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
 2. [Singularity Tutorial](https://singularity-tutorial.github.io/02-basic-usage/)
-3. [Python Environments in VScode](https://code.visualstudio.com/docs/python/environments#:~:text=your%20User%20Settings.-,To%20do%20so%2C%20open%20the%20Command%20Palette%20(Ctrl%2BShift,Settings%2C%20with%20the%20appropriate%20interpreter.)
+3. [Python Environments in VScode](https://code.visualstudio.com/docs/python/environments#:~:text=your%20User%20Settings.-,To%20do%20so%2C%20open%20the%20Command%20Palette%20(Ctrl%2BShift,Settings%2C%20with%20the%20appropriate%20interpreter)
 
 
 ## Contact:
