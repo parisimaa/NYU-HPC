@@ -80,6 +80,18 @@ Cancel all your jobs that you have submitted:
 scancel -u YOUR_USERNAME
 ~~~
 
+## Load an environment (conda/venv):
+When you open your notebook (.ipynb) on VScode on top right there is an option which allows you to choose your environment. \
+You either create one or use the existing environments. \
+If the environmnet you are looking to use is not in the list of search bar follow the following instruction: \
+1) Make sure you already installed Python and Anaconda on your system.
+2) press F1 and type "Python: Select Interpreter".
+3) In the opened window select "Enter interpreter Path...".
+4) Paste the sys path to the environment you wish to use. 
+
+
+
+
 ## Resources:
 1. [NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
 2. [Singularity Tutorial](https://singularity-tutorial.github.io/02-basic-usage/)
