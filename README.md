@@ -97,7 +97,7 @@ pip install Package
 ~~~
 ## Singularity container: 
 To install a package within an existing container, do the following: 
-(you can check the 
+(you can check the slurm file for correct paths) 
 ~~~
 module purge
 module load singularity/3.7.1  # Depending on the singularity you are using
