@@ -95,7 +95,18 @@ module purge
 module load condaenvs/new/YourEnvironment
 pip install Package
 ~~~
-
+## Singularity container: 
+To install a package within an existing container, do the following: 
+(you can check the 
+~~~
+module purge
+module load singularity/3.7.1  # Depending on the singularity you are using
+singularity exec --bind /gpfs/scratch/pa2297:/gpfs/scratch/pa2297
+> /gpfs/scratch/pa2297/Singularity/tf_lu…sif\
+> /bin/bash
+Apptainer> python -m pip install --user Package
+exit
+~~~
 
 
 
