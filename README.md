@@ -87,7 +87,14 @@ If the environmnet you are looking to use is not in the list of search bar follo
 1) Make sure you already installed Python and Anaconda on your system.
 2) press F1 and type "Python: Select Interpreter".
 3) In the opened window select "Enter interpreter Path...".
-4) Paste the sys path to the environment you wish to use. 
+4) Paste the sys path to the environment you wish to use.
+
+To install a package within an environment, follow these three steps: 
+~~~
+module purge
+module load condaenvs/new/YourEnvironment
+pip install Package
+~~~
 
 
 
