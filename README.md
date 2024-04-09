@@ -114,6 +114,7 @@ exit
 1. [NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
 2. [Singularity Tutorial](https://singularity-tutorial.github.io/02-basic-usage/)
 3. [Python Environments in VScode](https://code.visualstudio.com/docs/python/environments)
+4. [GPU-based Jupyter using Docker](https://cschranz.medium.com/set-up-your-own-gpu-based-jupyterlab-e0d45fcacf43)
 
 
 ## Contact:
