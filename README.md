@@ -111,8 +111,8 @@ exit
 1. "Pylance has crashed. Would you like to try using a Node.js executable to run the language server?"
  <img width="600" alt="Screenshot 2024-04-10 at 11 10 25 PM" src="https://github.com/parisimaa/NYU-HPC/assets/54392924/119f38fe-0863-495e-a3a7-bd36cf37661a">
 
-If your Pylance and kernel crash constantly when running notebooks check the following. 
-In VScode check your "Workspace Environment", you should be able to see all the packages within that environment. If packages are not there, either install or change to another existing environment consisting all necessary packages. 
+If your Pylance and kernel crash constantly when running notebooks check the following. \
+In VScode check your "Workspace Environment", you should be able to see all the packages within that environment. If packages are not there, either install or change to another existing environment consisting all necessary packages. \
 To shift to another workspace, look for "Python: Select Interpreter " in your search bar and choose envo that has all you need to run code. 
 
 ## Resources:
