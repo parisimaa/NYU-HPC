@@ -107,7 +107,11 @@ singularity exec --bind /gpfs/scratch/pa2297:/gpfs/scratch/pa2297
 Apptainer> python -m pip install --user Package
 exit
 ~~~
-
+## Error: 
+1. "Pylance has crashed. Would you like to try using a Node.js executable to run the language server?"
+![Alt text](<img width="865" alt="Screenshot 2024-04-10 at 11 10 25 PM" src="https://github.com/parisimaa/NYU-HPC/assets/54392924/119f38fe-0863-495e-a3a7-bd36cf37661a">
+)
+If your Pylance and kernel crash constantly when running notebooks check the following. 
 
 
 ## Resources:
