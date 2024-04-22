@@ -102,6 +102,7 @@ To install a package within an existing container, do the following:
 module purge
 module load singularity/3.7.1  # Depending on the singularity you are using
 singularity exec --bind /gpfs/scratch/pa2297:/gpfs/scratch/pa2297
+# Alternative : singularity exec --nv --bind /gpfs/scratch/pa2297 /gpfs/scratch/pa2297/Singularity/tf_lu.sif /bin/bash
 > /gpfs/scratch/pa2297/Singularity/tf_lu…sif\
 > /bin/bash
 Apptainer> python -m pip install --user Package
