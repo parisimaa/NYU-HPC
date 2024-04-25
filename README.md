@@ -117,7 +117,7 @@ In VScode check your "Workspace Environment", you should be able to see all the 
 To shift to another workspace, look for "Python: Select Interpreter " in your search bar and choose envo that has all you need to run code. \
 Also check if the packages you are using are compatible with eachother. 
 
-2. "Could not establish connection to "nyu-langone-hpc": Failed to install the VS Code Server"
+2. "Could not establish connection to "nyu-langone-hpc": Failed to install the VS Code Server" \
 To resolve this simply in command pallete look for "Remote-SSH: Kill VS Code Server on Host..." and then try to reconnect again. 
 
 ## Resources:
