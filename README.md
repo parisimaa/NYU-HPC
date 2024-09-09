@@ -120,6 +120,12 @@ Also check if the packages you are using are compatible with eachother.
 2. "Could not establish connection to "nyu-langone-hpc": Failed to install the VS Code Server" \
 To resolve this simply in command pallete look for "Remote-SSH: Kill VS Code Server on Host..." and then try to reconnect again. 
 
+## Move specific directories from home directory to lab space:
+~~~
+mv ~/.local <location in lab directory>
+ln -s <location in lab directory>/.local ~/.local
+~~~
+You can do for, .local, .conda, and .vscode-server
 ## Resources:
 1. [NYU HPC Greene - Slurm](https://sites.google.com/nyu.edu/nyu-hpc/training-support/general-hpc-topics/slurm-submitting-jobs)
 2. [Singularity Tutorial](https://singularity-tutorial.github.io/02-basic-usage/)
